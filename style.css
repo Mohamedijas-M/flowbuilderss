@@ -1,0 +1,91 @@
+#toolbox {
+  display: flex;
+  flex-wrap: wrap;
+  /*background-color: #ddd;*/
+  padding: 10px;
+}
+
+body{
+  display:flex;
+}
+
+.shape {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.square {
+    border: 1px solid black;
+   /*background-color: #f00;*/ 
+}
+
+.rectangle {
+     width:8rem;
+     border: 1px solid black;
+   /*background-color: #0f0;*/ 
+}
+
+.circle {
+    border: 1px solid black;
+   /*background-color: #00f;*/ 
+  border-radius: 25px;
+}
+
+.ellipse {
+    width:4rem;
+    height: 3rem;
+    border: 1px solid black;
+   /*background-color: #f0f;*/ 
+  border-radius: 70px ;
+}
+
+.diamond {
+    border: 1px solid black;
+   /*background-color: #0ff;*/ 
+  transform: rotate(45deg);
+}
+
+.cylinder {
+    border: 1px solid black;
+   /*background-color: #ff0;*/ 
+  border-radius: 25px 50px;
+}
+
+.triangle {
+    
+  /*background-color: #f00;*/ 
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid grey
+}
+
+.text {
+    border: 1px solid black;
+   /*background-color: #fff;*/ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallelogram {
+    border: 1px solid black;
+   /*background-color: #0f0;*/ 
+  transform: skew(20deg);
+}
+
+.hexagon {
+    border: 1px solid black;
+   /*background-color: #00f;*/ 
+  transform: rotate(30deg);
+}
+
+#canvas {
+    border: 1px solid black;
+   /*background-color: #fff;*/ 
+  width: 100%;
+  height: 900px;
+}
